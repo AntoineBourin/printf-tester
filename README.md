@@ -6,7 +6,7 @@
      By: abourin <marvin@42.fr>                     +#+  +:+       +#+          
                                                   +#+#+#+#+#+   +#+             
      Created: 2019/10/23 20:29:39 by abourin           #+#    #+#               
-     Updated: 2019/10/23 20:34:47 by abourin          ###   ########.fr         
+     Updated: 2019/10/23 20:38:23 by abourin          ###   ########.fr         
                                                                                 
 ********************************************************************************
 
@@ -39,3 +39,5 @@ And these bonus :
 With all of these printf's flags :
 
 -0.*
+
+Feel free to fork this repository and add potential tests forgotten here.
