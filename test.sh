@@ -3,11 +3,11 @@ PRINTFA='libftprintf.a'
 NC='\033[0m' # No Color
 echo 'Please enter a path for libftprintf.a'
 	rm -f test.c
-	cp main.c ft.c
+	cp newmain.c ft.c
 	sed 's/printf/ft_printf/g' ft.c > ft_printf.c
 	rm ft.c
 	printf "${RED}Compiling printf main...${NC}\n"
-	gcc ${PRINTFA} main.c 2> /dev/null
+	gcc ${PRINTFA} newmain.c 2> /dev/null
 	./a.out > printf.txt
 	echo "${RED}Compiling ft_printf main...${NC}\n"
 	gcc ${PRINTFA} ft_printf.c 2> /dev/null
